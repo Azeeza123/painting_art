@@ -1,0 +1,39 @@
+
+.product__item{
+    cursor: pointer;
+}
+.product__item img {
+    width: 100%; /* This makes the image responsive, adjusting to the container's width */
+    height: auto; /* This maintains the image's aspect ratio */
+    max-width: 350px; /* Set a maximum width for the image */
+    max-height: 350px; /* Set a maximum height for the image */
+    margin-top: 50px;
+   
+  }
+
+  .product_info h3 a {
+     font-size: 1.1rem; 
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .product_info a:hover{
+    color: inherit;
+  }
+  .product_info span{
+    font-size: 0.9rem;
+  }
+  .product__card-bottom .price{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+
+  }
+
+  .product__card-bottom span i{
+    font-style: 1.2rem;
+    padding: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 15px;
+  }
